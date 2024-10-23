@@ -1,0 +1,129 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root
+{
+    --morado: #CC99CC;
+    --azul-claro: #99CCCC;
+    --text-color: #000000;
+    --text-auxiliar: #47525E;
+    --blanco: #ffffff;
+    --rosado: #FFCCFF;
+    --rosadito: #d6b0d3; 
+    --azul-fondo: #B7E0EF;
+    --gris-fondo: hsl(0, 0%, 62%);
+}
+header
+{
+    display: flex;
+    position:fixed;
+    width: 100%;
+    height: 12%;
+    background: #ffffff;
+    z-index: 1000;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid var(--negro);
+}
+.navbar
+{
+    display: flex;
+    list-style: none;
+}
+.navbar a
+{
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    padding: 10px 20px;
+    color:var(--text-color);
+    font-weight: 500;
+}
+header img
+{
+    width: 35%;
+    position: relative;
+    margin-top: 13px;
+}
+body
+{
+    background: var(--gris-fondo);
+}
+img
+{
+    position: absolute;
+    height: 100%;
+}
+.recuadro
+{
+    position: relative;
+    display: flex;
+    width: 955px;
+    height: 650px;
+    -moz-border-radius: 0 50% / 0 100%;
+    -webkit-border-radius: 0 50% / 0 100%;
+    border-radius: 0 50% / 0 100%;
+    background: #849ef5;
+    border: 8px solid #3a3a3a;
+    bottom: 100%;
+    left: 30%;
+}
+h1{
+    color: var(--text-auxiliar);
+    position: absolute;
+    left: 20%;
+    margin-top: 10px;
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--text-auxiliar);
+    padding: 10px;
+}
+form, input
+{
+    position:absolute;
+    left: 10%;
+    width: 45%;
+    border-radius: 10px;
+}
+.continuar-boton
+{
+    width: 160px;
+    background: #000000;
+    color: #fff; justify-content: center;
+    text-transform: uppercase;
+    margin-left: 65%;
+    cursor: pointer;
+    padding: 100px;
+}
+.es
+{
+    padding: 50px;
+}
+button
+{
+    border: 3px solid #000000;
+    border-radius: 2px;
+    margin: 45px;
+    background: #000000;
+}
+button a
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    padding: 25px;
+}
+.principal
+{
+    width: 55%;
+    height: 80%;
+    position: absolute;
+    left: 32%;
+    bottom: 5%;
+}

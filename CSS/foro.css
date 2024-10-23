@@ -1,0 +1,101 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box; /* Added for consistent box model behavior */
+}
+
+/* Root Variables */
+:root {
+    --medium-font: 2.2rem;
+}
+
+/* Body Styles */
+body {
+    background-image: url(/IMG/fondo.png);
+    background-size: cover;
+}
+
+/* Heading Styles */
+.heading {
+    text-align: center;
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+
+/* H1 Specific Styles */
+h1 {
+    padding: 40px;
+    font-size: var(--medium-font);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* About Section Styles */
+.about-de, .about-img {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between; /* Using Flexbox for layout */
+}
+
+.about-de img, .about-img img {
+    width: 47%;
+}
+
+/* Form Styles */
+form {
+    margin-bottom: 30px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Input Focus Styles */
+input:focus, textarea:focus {
+    border-color: #80bdff;
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Button Styles */
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.5);
+}
+
+/* Publication and Comment Styles */
+.publicacion, .comentario {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Horizontal Rule Styles */
+hr {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+}
